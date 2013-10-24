@@ -1,10 +1,10 @@
-title:            Scribble
-description:      A jekyll theme. Because I scribble.
-url:              # Site url.
-baseurl:          # Base url. ( if use subdirectory-like URL )
-signoff:          # Your name.
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-google_analytics_id: # set tracking, UA-XXXX-Y.
+title:            On The Road
+description:      一个赶路人的心路历程...
+url:              http://tangsan.im # Site url.
+baseurl:          ecchanger.github.io # Base url. ( if use subdirectory-like URL )
+signoff:          ecchanger # Your name.
+disqus_shortname: ecchanger # disqus comment thread for post header options. ( leave blank if unwanted. )
+google_analytics_id: UA-44828772-1 # set tracking, UA-XXXX-Y.
 
 links:
   - name:         About
@@ -12,17 +12,20 @@ links:
   - name:         Feed
     url:          /feed.xml
   - name:         Blog
-    url:          http://chloerei.com
+    url:          http://tangsan.im
     external:     true
   - name:         Email
-    url:          mailto:chloerei@gmail.com
+    url:          mailto:ecchanger@gmail.com
     external:     true
   - name:         GitHub
-    url:          http://github.com/chloerei/scribble
+    url:          http://github.com/ecchanger
     external:     true
 
-pygments:         true
+pygments:         false
 permalink:        pretty
 markdown:         redcarpet
 redcarpet:
   extensions:     [autolink, tables]
+
+paginate: 20
+paginate_path: "/page:num"
